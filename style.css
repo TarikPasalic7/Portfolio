@@ -218,7 +218,7 @@ section .title::after{
 
 /* about section styling */
 .about .title::after{
-    content: "who i am";
+    content: "who am i";
 }
 .about .about-content .left{
     width: 45%;
@@ -380,10 +380,15 @@ section .title::after{
 .skills-content .right .mysql::before{
     width: 70%;
 }
+.skills-images{
+    width: 10% ;
+    height: 10%;
+    
+}
 
 /* teams section styling */
 .teams .title::after{
-    content: "who with me";
+    content: "some of my projects";
 }
 .teams .carousel .card{
     background: #222;
@@ -553,6 +558,12 @@ footer span a{
 footer span a:hover{
     text-decoration: underline;
 }
+.link{
+    color: rgb(14, 127, 233);
+}
+.link:hover{
+    color: rgb(255, 255, 255);
+}
 
 
 /* responsive media query start */
@@ -630,6 +641,10 @@ footer span a:hover{
     .contact .contact-content .column{
         width: 100%;
         margin-bottom: 35px;
+    }
+    .contact{
+        width: 5%;
+        height: 10%;
     }
 }
 
