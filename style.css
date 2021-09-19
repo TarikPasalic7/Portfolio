@@ -167,7 +167,7 @@ section .title::after{
 /* home section styling */
 .home{
     display: flex;
-    background: url("images/abdul-a-0si69BeGjoI-unsplash.jpg") no-repeat center;
+    background: url("images/5570834.jpg") no-repeat center;
     height: 100vh;
     color: #fff;
     min-height: 500px;
@@ -694,5 +694,19 @@ footer span a:hover{
         width: 35px;
         font-size: 23px;
         line-height: 38px;
+    }
+    section .title::before{
+        display: none;
+    }
+    section .title::after{
+        display: none;
+    }
+    .contact h2{
+  display: none;
+    }
+    .contact .right{
+        
+       margin-left:150px;
+
     }
 }
